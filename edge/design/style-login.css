@@ -1,0 +1,72 @@
+    body {
+        background:#fff url(images/body.png) repeat !important; font-family: 'Lato', Tahoma, Arial;
+    }
+     
+    h1 a{
+        background: url(images/logogcllog.png) no-repeat !important;
+        width: 93px !important;
+        height: 93px !important;
+    }
+     
+    #backtoblog {
+        background: #000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#333, #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#333, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#333, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#333, #000); /* Standard syntax (must be last) */
+        box-shadow: 0 1px 3px #333;
+        left: 0;
+        margin: 0 !important;
+        padding: 10px !important;
+        position: fixed;
+        text-align: left;
+        text-shadow: 0 0 0 !important;
+        top: 0;
+        width: 100%;
+    }
+     
+    .login #backtoblog a {
+        color: #fff !important; transition: all 1s;
+    }
+	.login #backtoblog a:hover {
+        padding-left:30px;
+    }
+	
+	.login form {background: #000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#333, #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#333, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#333, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#333, #000); /* Standard syntax (must be last) */ box-shadow: 0 0 3px #000}
+	
+	.login form input, .login form select, .login form input, .login form select
+{
+	background:#fff; border: #333 1px solid
+}
+	.login form input:hover, .login form select:hover, .login form input:focus, .login form select:focus
+{
+	background:#c9c9c9; border: #c9c9c9 1px solid
+}
+	.login .button {background-color: #333; text-shadow:none; color:#fff; box-shadow: 0 0 3px #fff; border:none}
+	.login .button:focus {background-color: #fff; text-shadow:none; color:#333; box-shadow: 0 0 3px #fff; border:none}
+	.login .button:hover {background-color: #fff; color:#333; box-shadow: 0 0 3px #fff inset; border:none}
+	.login form label, .login #reg_passmail {color:#fff}
+	.login #nav a {color:#333; transition: all 1s; padding:0; text-align:center;}
+	.login #nav a:before {content:"\26A0"; padding-right:4px; color:red}
+	.login #nav a:hover {padding-left:30px; color:#c9c9c9}
+	
+	.login .message{border-left:none; color:#fff; background: #000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#333, #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#333, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#333, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#333, #000); /* Standard syntax (must be last) */}
+
+	.avert {bottom:0; 
+	position: fixed; width:100%; text-align:center; color:#fff; background: #000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#333, #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#333, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#333, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#333, #000); /* Standard syntax (must be last) */}
+	
+	.avert p {padding:8px} 
+	
+	.login form input [type="checkbox"]:checked {color:#fff}
